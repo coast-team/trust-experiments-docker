@@ -24,7 +24,7 @@ Note: You may need to use dos2unix on the current version of ``random_games_orde
 
 Finally, you need to udpate noVNC git submodule using the following command:
 ```bash
-git submodule update noVNC
+git submodule update --init noVNC
 ```
 
 #### To build the container image
