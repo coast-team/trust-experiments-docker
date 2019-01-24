@@ -94,14 +94,14 @@ for i in {1..6}; do docker exec zleaf$i /bin/bash -c 'killall zleaf.exe'; done
 
 ```bash
 docker stop ztree
-for i in {1..6}; do docker stop zleaf$i'; done
+for i in {1..6}; do docker stop zleaf$i; done
 ```
 
 and then you can remove them (if you do not need any data)
 
 ```bash
 docker rm ztree
-for i in {1..6}; do docker rm zleaf$i'; done
+for i in {1..6}; do docker rm zleaf$i; done
 ```
 
 
