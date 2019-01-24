@@ -13,10 +13,15 @@ Then, you need to download the ``.ztt`` files related to your experiments and pu
 curl -L https://github.com/Purpleskill/trust_influence_analysis/raw/master/ztree_programs/real_users_trust_reputation_scores_deviation.ztt --output ztree/real_users_trust_reputation_scores_deviation.ztt
 ```
 
-You may need also to download the python script to generate games order (``Random_games_order.py``) and to put it in the ``ztree/`` directory.
+You may need also to download the python script to generate games order (``random_games_order.py``) and to put it in the ``ztree/`` directory.
 
 ```bash
-curl -L https://github.com/Purpleskill/trust_influence_analysis/blob/master/datafiles_ztree/Random_games_order.py --output ztree/random_games_order.py
+curl -L https://github.com/Purpleskill/trust_influence_analysis/raw/master/datafiles_ztree/Random_games_order.py --output ztree/random_games_order.py
+```
+
+Finally, you need to udpate noVNC git submodule using the following command:
+```bash
+git submodule update noVNC
 ```
 
 #### To build the container image
