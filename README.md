@@ -19,6 +19,9 @@ You may need also to download the python script to generate games order (``rando
 curl -L https://github.com/Purpleskill/trust_influence_analysis/raw/master/datafiles_ztree/Random_games_order.py --output ztree/random_games_order.py
 ```
 
+Note: You may need to use dos2unix on the current version of ``random_games_order.py`` (will be fixed later).
+
+
 Finally, you need to udpate noVNC git submodule using the following command:
 ```bash
 git submodule update noVNC
